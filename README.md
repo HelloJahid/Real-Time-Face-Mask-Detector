@@ -2,13 +2,14 @@
 Learn how to create a real-time face mask detector using Tensorflow, Keras, and OpenCV with your webcam or mobile camera
 
 ## Introduction
-This is a deep learning project. I used Convolutional Neural Networks to classify MNIST handwritten data. For more convenient propose of test data, used Tkinter to deploy a desktop app that can run any Os. You just need to select an image then all work done by this app. With this app anyone can apply image classification 
+Face Mask Detection Platform uses Artificial Network to recognize if a user is not wearing a mask. This is a deep learning project.I used Convolutional Neural Networks to classify Mask image.You will learn how to train a COVID-19 face mask detector with OpenCV, Keras/TensorFlow, and Deep Learning.
+
 <p align="center">
   <img src="assests/appsdemo.png"><br/>
   <i>An example of Apps output.</i>
 </p>
 
-## Why CNN
+## Why mask_CNN.ipynb
 In this project, Convolutional Neural Network(CNN) used as an image classifier. We used a pre-trained CNN model named ResNet50 to implement a transfer learning approach. We have two types of data face with mask and face with no mask. These two types of data are classified by the CNN model.
 
 ## Why App.py
@@ -23,7 +24,7 @@ With my code, you can:
 
 * **for more to know click the image below(youtube video) **
 
-[![Watch the video](assests/youtubecover.png)](https://youtu.be/kTE15hp6aIU)
+[![Watch the video](assests/youtubecover.png)](https://youtu.be/PetCm9qDlac)
 
 ## Dependencies:
 
