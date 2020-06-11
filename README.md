@@ -9,7 +9,7 @@ This is a deep learning project. I used Convolutional Neural Networks to classif
 </p>
 
 ## Why CNN
-In this project Convolutional Neural Network(CNN) used as Image classsifier. We have two types of data face with mask and face with no mask.These two types of data are classifiy by the CNN model.
+In this project, Convolutional Neural Network(CNN) used as an image classifier. We used a pre-trained CNN model named ResNet50 to implement a transfer learning approach. We have two types of data face with mask and face with no mask. These two types of data are classified by the CNN model.
 
 ## Why App.py
 We implement an open-cv based face detection model. By using OpenCV haarcascade_frontalface_default.xml file we extract face ROI from an image. Then the face ROI image fits it to the CNN model. Furthermore, like a binary classifier, the CNN model classifies whether the face ROI image is face with a mask or not. 
